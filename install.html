@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Install Browser Agent</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #1a1a2e; color: #eee; display: flex; justify-content: center; padding: 40px; margin: 0; }
+    .container { max-width: 600px; width: 100%; }
+    h1 { font-size: 1.5em; margin-bottom: 24px; }
+    .script { background: #16213e; border-radius: 10px; padding: 20px; margin-bottom: 16px; border: 1px solid #0f3460; }
+    .script h2 { font-size: 1.1em; margin: 0 0 8px; }
+    .script p { margin: 0 0 12px; opacity: 0.8; font-size: 0.9em; }
+    .script a { display: inline-block; background: #0f3460; color: #fff; padding: 8px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+    .script a:hover { background: #1a4a7a; }
+    .version { font-size: 0.75em; opacity: 0.5; margin-left: 6px; }
+    .note { background: #0a0a1a; border-radius: 8px; padding: 16px; margin-top: 20px; font-size: 0.85em; opacity: 0.7; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Browser Agent</h1>
+
+    <div class="script">
+      <h2>Browser Agent <span class="version">v1.9.0</span></h2>
+      <p>Generic remote browser agent. Works on all pages. Lets Claude control your browser for testing, debugging, and automation. 30+ commands including click, navigate, eval, form fill, assertions.</p>
+      <a href="/browser-agent.user.js">Install Browser Agent</a>
+    </div>
+
+    <div class="note">
+      <strong>Tip:</strong> If clicking doesn't trigger Tampermonkey's install dialog, right-click the link &rarr; "Save link as",
+      then drag the downloaded .user.js file onto the Tampermonkey dashboard
+      (<a href="chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/options.html#nav=utils" style="color:#e94560">open dashboard</a>).
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "claude-browser-agent",
+  "version": "1.0.0",
+  "description": "Generic browser agent relay — lets Claude CLI control a live browser via Tampermonkey",
+  "main": "agent-server.js",
+  "scripts": {
+    "start": "node agent-server.js",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
