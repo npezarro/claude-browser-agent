@@ -5,8 +5,8 @@
  * running in the user's real browser. No application-specific logic —
  * just queue commands, collect results, track tabs.
  *
- * PM2: pm2 start agent-server.js --name browser-agent
- * Port: 3102 (behind reverse proxy at /api/browser-agent/)
+ * Start: see ecosystem.config.js
+ * Port: configured via BROWSER_AGENT_PORT env var
  */
 require("dotenv").config();
 const http = require("http");
